@@ -1,0 +1,8 @@
+<!-- taskList -> deined in app-tasks (TasksComponent) -->
+<!-- individualTaskWithFreeName -> name for iteration, could be anything -->
+<!-- task -> defined in app-task-item (TaskItemComponent) -->
+<app-task-item 
+ *ngFor="let individualTaskWithFreeName of taskList"
+ [task]="individualTaskWithFreeName" 
+>
+</app-task-item>
